@@ -9,9 +9,7 @@ body {
     line-height: 1.6;
     background-image: url('/assets/img/Background.jpg');
     /* Additional optional properties */
-    background-size: cover;       /* Ensures the image covers the entire background */
-    background-position: center;  /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: contain;       /* Ensures the image covers the entire background */
 }
 
 header {
