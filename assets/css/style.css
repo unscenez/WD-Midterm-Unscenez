@@ -9,7 +9,8 @@ body {
     line-height: 1.6;
     background-image: url('/assets/img/portfolio\ 1\ \(1\).JPG');
     /* Additional optional properties */
-    background-size: contain;       /* Ensures the image covers the entire background */
+    background-size: contain;
+    color: #000;       /* Ensures the image covers the entire background */
 }
 
 header {
