@@ -60,10 +60,10 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- The project focuses on building a website that serves a schowcase for the artist, functioning like a protfolio.
+- The goal of this project is to show what i've learned in Programming and to use design skills effectively.
+- The main focus of my project is on creating a simple design and effectively executing the layout.
+- This website uses HTML and CSS, separating the content and design into different files.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,4 +117,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| My Reference| This reference serves as my initial portfolio for GED0021, which I have revamped into an official website for my final project. | https://sites.google.com/view/studioscenez/portfolio?authuser=0 |

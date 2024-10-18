@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('/WD-Project-main/assets/img/Home\ Background.png');
+    background-size: contain;
+    color: #fff;
+}
+
+header {
+    position: relative;
+    padding: 10px 60px; /* Reduced padding to bring everything closer to the top */
+}
+
+.logo {
+    max-width: 100px; /* Make the logo smaller */
+    position: absolute;
+    top: 20px; /* Distance from the top */
+    left: 0px; /* Distance from the left */
+    right: 20;
+    bottom: 0;
+}
+
+nav {
+    white-space: nowrap; /* Prevent wrapping of nav items */
+    padding: 20px 0; /* Padding for the nav bar */
+    text-align: center; /* Center the nav items */
+    margin-top: 30px; /* Space above the nav */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block; /* Center the ul by displaying as inline-block */
+}
+
+nav ul li {
+    display: inline;
+    margin: 100px 100px /* Increased margin for larger gaps */
+}
+
+nav ul li a {
+    color: #c3c3c3;
+    text-decoration: none;
+    font-weight: bold; /* Makes the navigation links bold */
+    padding: 15px 20px; /* Increased vertical padding for higher items */
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Light background on hover */
+}
+
+.hero {
+    text-align: left;
+    padding: 80px 50px 0 20px;
+}
+
+h1 {
+    font-size: 3.5rem; /* Larger font for the main heading */
+    margin: 40px 90px;
+    color: #c3c3c3;
+}
+
+header p {
+    color: #c3c3c3;
+    margin: 40px 90px;
+    font-size: 1.5rem; /* Adjust subtitle font size */
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border for projects */
+}
+
+#about {
+    color: #FFFF; /* Text color */
+    margin: 40px 90px;
+}
+
+#about h2 {
+    font-size: 2rem; /* Size of the heading */
+    margin-bottom: 10px; /* Space below the heading */
+    color: #FFFF; /* Text color */
+    margin: 40px 90px;
+}
+
+#about p {
+    color: #FFFF;
+    margin: 40px 90px;
+    font-size: 25px; /* Adjust subtitle font size */
+}
+
+#education {
+    padding: 60px 20px; /* Space inside the section */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    border-radius: 10px; /* Rounded corners */
+    color: #c3c3c3; /* Text color */
+    margin: 20px auto; /* Center section horizontally */
+    max-width: 800px; /* Maximum width for the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow for depth */
+}
+
+#education h2 {
+    font-size: 2.5rem; /* Size of the heading */
+    margin-bottom: 30px; /* Space below the heading */
+    color: #ffffff; /* Color for the heading */
+    text-align: center; /* Centers the heading */
+    border-bottom: 2px solid #c3c3c3; /* Decorative line below the heading */
+    padding-bottom: 10px; /* Padding for better spacing */
+}
+
+.education-card {
+   
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the card */
+    margin-bottom: 20px; /* Space between each card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds a slight shadow to each card */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.education-card:hover {
+    transform: translateY(-5px); /* Lifts the card slightly when hovered */
+}
+
+.education-card h3 {
+    font-size: 1.8rem; /* Size of the institution name */
+    color: #ffffff; /* Color for the institution name */
+    margin-bottom: 5px;
+}
+
+.degree, .years {
+    font-size: 1.2rem;
+    color: #c3c3c3; /* Text color */
+    margin: 0; /* Remove default margins */
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 10px; /* Space above the description */
+    color: #e0e0e0; /* Light color for readability */
+}
+
+#portfolio {
+    padding: 60px 20px; /* Padding for the portfolio section */
+    background: rgba(0, 0, 0, 0.5); /* Optional background for visibility */
+    text-align: center; /* Center the content in the portfolio section */
+}
+
+#portfolio h2 {
+    font-size: 2.5em; /* Adjust this value for your desired size */
+    margin-bottom: 20px; /* Space below the title */
+    color: #fff; /* Color for the title */
+}
+
+.portfolio-container {
+    display: flex; /* Use flexbox to align cards in a row */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 20px 0; /* Vertical padding for the container */
+    scrollbar-width: thin; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    justify-content: center; /* Center the cards in the container */
+}
+
+.portfolio-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Webkit browsers */
+}
+
+.portfolio-card {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    overflow: hidden; /* Clip the image and content inside the card */
+    margin: 0 10px; /* Space between cards */
+    max-width: 300px; /* Maximum width for each card */
+    flex: 0 0 auto; /* Prevent cards from growing */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.portfolio-image {
+    width: 100%; /* Make the image take the full width of the card */
+    height: 300px; /* Increased height for larger images */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    display: block; /* Make sure the image is a block element */
+    margin: 0 auto; /* Center the image */
+}
+
+.portfolio-content {
+    padding: 15px; /* Padding inside the card */
+    text-align: center; /* Center the text in the content */
+}
+
+.portfolio-title {
+    font-size: 1.5em; /* Font size for the title */
+    margin-bottom: 10px; /* Space below the title */
+    color: #fff; /* Title color */
+}
+
+.portfolio-description {
+    font-size: 1em; /* Font size for the description */
+    color: #c3c3c3; /* Description color */
+    margin-bottom: 15px; /* Space below the description */
+}
+
+.portfolio-button {
+    display: inline-block; /* Make the button inline-block */
+    padding: 10px 15px; /* Padding inside the button */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.portfolio-button:hover {
+    background-color: #0056b3; /* Darken the button on hover */
+}
+
+footer {
+    text-align: center; /* Center text in the footer */
+    padding: 20px; /* Padding for spacing */
+    background: rgba(51, 51, 51, 0.8); /* Semi-transparent dark background */
+    color: #fff; /* White text color */
+    position: relative; /* Positioning context */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+    font-size: 1rem; /* Font size */
+}
+
+.social-links {
+    margin-top: 10px; /* Space above social links */
+}
+
+.social-link {
+    margin: 0 10px; /* Space between social icons */
+    display: inline-block; /* Make the links inline */
+    color: #fff; /* White color for icons */
+    font-size: 1.5rem; /* Increase icon size */
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.social-link:hover {
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
