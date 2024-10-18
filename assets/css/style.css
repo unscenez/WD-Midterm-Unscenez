@@ -7,10 +7,10 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url('/assets/img/home\ page\(1\).png');
+    background-image: url("/assets/img/home\ page\(1\).png";
     /* Additional optional properties */
     background-size: contain;
-    color: #000;       /* Ensures the image covers the entire background */
+    color: #ffffff;       /* Ensures the image covers the entire background */
 }
 
 header {
