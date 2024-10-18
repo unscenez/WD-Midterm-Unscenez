@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url('/assets/img/Home\ Background.png');
+    background-image: url("/assets/img/Home\ Background.png");
     background-size: contain;
     color: #fff;
 }
